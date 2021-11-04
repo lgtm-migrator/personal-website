@@ -3,7 +3,7 @@
     <v-col cols="12" sm="8" md="6">
       <v-card class="logo py-4 d-flex justify-center">
         <h1>Welcome</h1>
-        <p>testtt3</p>
+        <p>testtt3s</p>
       </v-card>
     </v-col>
   </v-row>
