@@ -8,15 +8,5 @@
       "@@/*": ["./*"]
     }
   },
-  "exclude": ["node_modules", ".nuxt", "dist"],
-
-  "vue/multi-word-component-names": ["error", {
-    "ignores": [
-      "experience",
-      "about",
-      "index",
-      "error",
-      "default"
-    ]
-  }]
+  "exclude": ["node_modules", ".nuxt", "dist"]
 }
