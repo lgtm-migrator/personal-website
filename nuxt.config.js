@@ -40,8 +40,27 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    // https://sitemap.nuxtjs.org/guide/setup
+    '@nuxtjs/sitemap'
   ],
+
+  sitemap: {
+    hostname: 'https://lukasstauersboel.com',
+    gzip: true,
+    exclude: [
+      '/admin',
+      '/admin/*',
+      '/admin/**',
+    ],
+    routes: [
+      '/page/about',
+      '/page/experience',
+      '/page/projects',
+      '/page/contact',
+      '/page/resume',
+    ],
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
