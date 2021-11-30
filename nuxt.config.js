@@ -32,9 +32,7 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify',
-    // https://github.com/ivodolenc/nuxt-gsap-module
-    'nuxt-gsap-module',
+    '@nuxtjs/vuetify'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -44,10 +42,6 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa'
   ],
-
-  gsap: {
-    //
-  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},

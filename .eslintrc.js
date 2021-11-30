@@ -24,6 +24,7 @@ module.exports = {
         'error',
         'default'
       ]
-    }]
+    }],
+    'prefer-const': 1
   }
 }
