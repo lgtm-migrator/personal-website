@@ -41,6 +41,7 @@ export default {
   }
 }
 
+// Class for text scrambling
 class TextScramble {
   constructor (el) {
     this.el = el
@@ -48,6 +49,7 @@ class TextScramble {
     this.update = this.update.bind(this)
   }
 
+  // Set the text
   setText (newText) {
     const oldText = this.el.innerText
     const length = Math.max(oldText.length, newText.length)
@@ -66,6 +68,7 @@ class TextScramble {
     return promise
   }
 
+  // Update the text
   update () {
     let output = ''
     let complete = 0
@@ -93,6 +96,7 @@ class TextScramble {
     }
   }
 
+  // Generate a random character
   randomChar () {
     return this.chars[Math.floor(Math.random() * this.chars.length)]
   }
