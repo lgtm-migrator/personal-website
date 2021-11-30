@@ -46,7 +46,7 @@ export default {
   ],
 
   sitemap: {
-    hostname: 'https://lukasstauersboel.com',
+    hostname: 'https://lukasstauersboel.dk',
     gzip: true,
     exclude: [
       '/admin',
