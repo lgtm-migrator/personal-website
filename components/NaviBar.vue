@@ -19,12 +19,15 @@
         </ul>
       </div>
     </div>
+    <particles />
   </div>
 </template>
 
 <script>
 import gsap from 'gsap'
+import Particles from './Particles.vue'
 export default {
+  components: { Particles },
   data () {
     return {
     }

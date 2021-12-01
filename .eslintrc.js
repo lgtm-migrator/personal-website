@@ -24,7 +24,8 @@ module.exports = {
         'error',
         'default',
         'nav',
-        'navbar'
+        'navbar',
+        'Particles'
       ]
     }],
     'prefer-const': 1,
