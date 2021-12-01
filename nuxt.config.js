@@ -51,7 +51,7 @@ export default {
     exclude: [
       '/admin',
       '/admin/*',
-      '/admin/**',
+      '/admin/**'
     ],
     routes: [
       '/page/about',
