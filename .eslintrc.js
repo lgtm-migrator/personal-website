@@ -28,6 +28,6 @@ module.exports = {
       ]
     }],
     'prefer-const': 1,
-    'no-unused-vars': 1,
+    'no-unused-vars': 1
   }
 }
