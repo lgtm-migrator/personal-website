@@ -22,9 +22,12 @@ module.exports = {
         'about',
         'index',
         'error',
-        'default'
+        'default',
+        'nav',
+        'navbar'
       ]
     }],
-    'prefer-const': 1
+    'prefer-const': 1,
+    'no-unused-vars': 1,
   }
 }
