@@ -58,8 +58,8 @@ export default {
       '/page/experience',
       '/page/projects',
       '/page/contact',
-      '/page/resume',
-    ],
+      '/page/resume'
+    ]
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
