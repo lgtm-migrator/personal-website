@@ -19,15 +19,12 @@
         </ul>
       </div>
     </div>
-    <particles />
   </div>
 </template>
 
 <script>
 import gsap from 'gsap'
-import Particles from './Particles.vue'
 export default {
-  components: { Particles },
   data () {
     return {
     }
@@ -91,7 +88,7 @@ export default {
       })
       navitem.forEach((item) => {
         item.addEventListener('click', function (e) {
-          this.bars.classList.remove('active')
+          bars.classList.remove('active')
           gsap.to('.navigation', {
             duration: 0.2,
             opacity: '0',

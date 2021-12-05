@@ -23,7 +23,7 @@ export default {
     const next = () => {
       const phrases = this.phrases
       const phrase = phrases[counter]
-      const delay = phrase.split('').length * 350
+      const delay = phrase.split('').length * 450
       fx.setText(phrase)
       counter = (counter + 1) % phrases.length
       setTimeout(next, delay)
