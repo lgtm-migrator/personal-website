@@ -44,18 +44,18 @@ export default {
             ease: 'expo.in'
           })
           gsap.to('.navBefore', {
-            duration: 0.5,
+            duration: 0.6,
             marginLeft: '0',
             ease: 'expo.in'
           })
           gsap.to('.nav', {
             duration: 0.8,
             marginLeft: '0',
-            delay: 0.3,
+            delay: 0.05,
             ease: 'expo.in'
           })
           gsap.to('.navigation', {
-            duration: 1,
+            duration: 0.7,
             opacity: '1',
             delay: 0.6,
             ease: 'expo.in'
@@ -135,7 +135,7 @@ export default {
           linkitem[1].addEventListener('mouseover', function (e) {
             gsap.to('.nav', {
               duration: 0.3,
-              backgroundColor: '#56C8A4',
+              backgroundColor: '#D4C1EC',
               ease: 'ease.in'
             })
           })
@@ -151,7 +151,7 @@ export default {
           linkitem[2].addEventListener('mouseover', function (e) {
             gsap.to('.nav', {
               duration: 0.3,
-              backgroundColor: '#ee392f',
+              backgroundColor: '#98B9F2',
               ease: 'ease.in'
             })
           })
@@ -248,7 +248,7 @@ $xl-breakpoint: map-get($grid-breakpoints, 'xl');
   margin-left: 100%;
   width: 100%;
   height: 100%;
-  background: #017bf5;
+  background: #5d58ee;
 }
 .menu .nav {
   position: relative;

@@ -18,7 +18,7 @@
     "@nuxtjs/toast": "^3.3.1",
     "core-js": "^3.19.1",
     "nuxt": "^2.15.7",
-    "vue-particles": "^1.0.9",
+    "particles.vue": "^2.20.5",
     "vuetify": "^2.5.13"
   },
   "devDependencies": {

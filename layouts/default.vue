@@ -9,8 +9,9 @@
     <v-footer
       :absolute="!fixed"
       app
+      class="align-center justify-center"
     >
-      <span>&copy; {{ new Date().getFullYear() }} - Lukas Stauersbøl</span>
+      <span class="">&copy; {{ new Date().getFullYear() }} - Lukas Stauersbøl</span>
     </v-footer>
   </v-app>
 </template>
@@ -57,5 +58,9 @@ export default {
 <style lang="scss" scoped>
 .container {
   height: 100%;
+}
+
+.v-footer {
+  background-color: transparent;
 }
 </style>
