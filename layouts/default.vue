@@ -24,31 +24,7 @@ export default {
   },
   data () {
     return {
-      clipped: false,
-      drawer: false,
       fixed: true,
-      items: [
-        {
-          icon: 'mdi-home',
-          title: 'Home',
-          to: '/'
-        },
-        {
-          icon: 'mdi-account',
-          title: 'About me',
-          to: '/about'
-        },
-        {
-          icon: 'mdi-card-account-details-star',
-          title: 'Experience',
-          to: '/experience'
-        },
-        {
-          icon: 'mdi-apps',
-          title: 'Projects',
-          to: '/projects'
-        }
-      ],
       title: 'Lukas Stauersbøl'
     }
   }
