@@ -1,6 +1,6 @@
 <template>
   <div>
-        <Particles
+    <Particles
       id="tsparticles"
       :particlesInit="particlesInit"
       :particlesLoaded="particlesLoaded"
