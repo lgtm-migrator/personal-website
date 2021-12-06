@@ -168,8 +168,6 @@ export default {
   },
 
   methods: {
-    hoverEffect (linkitem) {
-    }
   }
 }
 </script>
