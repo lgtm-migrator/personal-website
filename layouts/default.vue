@@ -39,4 +39,8 @@ export default {
 .v-footer {
   background-color: transparent;
 }
+
+.v-main {
+  background-color: #1F1F1F;
+}
 </style>
