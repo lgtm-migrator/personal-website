@@ -119,7 +119,7 @@ export default {
           linkitem[0].addEventListener('mouseover', function (e) {
             gsap.to('.nav', {
               duration: 0.3,
-              backgroundColor: '#3f66a2',
+              backgroundColor: '#9E8CCF',
               ease: 'ease.in'
             })
           })

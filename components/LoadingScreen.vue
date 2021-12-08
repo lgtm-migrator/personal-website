@@ -15,10 +15,11 @@ export default {
 
   mounted () {
     Lottie.loadAnimation({
-      container: this.$refs.loading,
+      container: document.getElementsByClassName('loading'),
       renderer: 'svg',
       loop: true,
-      path: ''
+      autoplay: true,
+      path: 'https://assets7.lottiefiles.com/datafiles/0e47bae039bb4398f1a1dc74871ee6fe/data.json'
     })
   },
 
@@ -34,5 +35,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
+.loading-page {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 99999;
+  padding: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 </style>
