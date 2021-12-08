@@ -115,7 +115,7 @@ export default {
       projectId: 'personalwebsite-7bf11',
       storageBucket: 'personalwebsite-7bf11.appspot.com',
       messagingSenderId: '54308610383',
-      appId: "1:54308610383:web:61388bf01d41eebe7be53a"
+      appId: '1:54308610383:web:61388bf01d41eebe7be53a'
     },
     services: {
       auth: true,
