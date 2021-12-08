@@ -14,7 +14,7 @@
             <nuxt-link to="/about" class="link-item">About</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link to="/contact" class="link-item link-item-border">Contact</nuxt-link>
+            <nuxt-link to="/contact" class="link-item">Contact</nuxt-link>
           </li>
         </ul>
       </div>
@@ -149,18 +149,21 @@ export default {
         }
         if (linkitem[i] === linkitem[2]) {
           linkitem[2].addEventListener('mouseover', function (e) {
-            gsap.to('.link-item-border', {
+            gsap.to('.nav', {
               duration: 0.3,
-              borderColor: '#98B9F2',
-              backgroundColor: '#98B9F2',
+              backgroundColor: '#FFEAD0',
+              ease: 'ease.in'
+            })
+            gsap.to('.link-item', {
+              duration: 0.3,
+              color: '#FFEAD0',
               ease: 'ease.in'
             })
           })
           linkitem[2].addEventListener('mouseout', function (e) {
-            gsap.to('.link-item-border', {
+            gsap.to('.nav', {
               duration: 0.3,
               backgroundColor: '#1F1F1F',
-              borderColor: '#1F1F1F',
               ease: 'ease.in'
             })
           })
@@ -181,6 +184,11 @@ $sm-breakpoint: map-get($grid-breakpoints, 'sm');
 $md-breakpoint: map-get($grid-breakpoints, 'md');
 $lg-breakpoint: map-get($grid-breakpoints, 'lg');
 $xl-breakpoint: map-get($grid-breakpoints, 'xl');
+
+$purple: #5d58ee;
+$gray: #E0E2DB;
+$almond: #FFEAD0;
+$black: #1F1F1F;
 
 .main {
   position: relative;
@@ -248,14 +256,14 @@ $xl-breakpoint: map-get($grid-breakpoints, 'xl');
   margin-left: 100%;
   width: 100%;
   height: 100%;
-  background: #5d58ee;
+  background: $almond;
 }
 .menu .nav {
   position: relative;
   margin-left: 100%;
   width: 100%;
   height: 100%;
-  background: #1F1F1F;
+  background: $black;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -269,6 +277,8 @@ $xl-breakpoint: map-get($grid-breakpoints, 'xl');
 }
 .menu .nav ul li a {
   position: relative;
+  font-family: 'Neue Montreal', sans-serif;
+  font-weight: 700;
   font-size: 4.5rem;
   text-decoration: none;
   text-align: center;

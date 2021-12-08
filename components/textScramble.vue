@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      chars: '!<>-_\\/[]{}—=+*^?#________',
+      chars: '!<>-_\\/[]{}—=+*^?#________ÆØÅ',
       el: null,
       interval: null,
       text: '',
@@ -23,7 +23,7 @@ export default {
     const next = () => {
       const phrases = this.phrases
       const phrase = phrases[counter]
-      const delay = phrase.split('').length * 450
+      const delay = phrase.split('').length * 250
       fx.setText(phrase)
       counter = (counter + 1) % phrases.length
       setTimeout(next, delay)
