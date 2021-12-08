@@ -135,7 +135,7 @@ export default {
           linkitem[1].addEventListener('mouseover', function (e) {
             gsap.to('.nav', {
               duration: 0.3,
-              backgroundColor: '#C6AD94',
+              backgroundColor: '#CDB8A2',
               ease: 'ease.in'
             })
           })
@@ -151,7 +151,7 @@ export default {
           linkitem[2].addEventListener('mouseover', function (e) {
             gsap.to('.nav', {
               duration: 0.3,
-              backgroundColor: '#FFEAD0',
+              backgroundColor: '#FFDAAD',
               ease: 'ease.in'
             })
           })
@@ -174,17 +174,12 @@ export default {
 
 <style lang='scss' scoped>
 @import '~vuetify/src/styles/styles.sass';
+@import '/assets/main.scss';
 
 $sm-breakpoint: map-get($grid-breakpoints, 'sm');
 $md-breakpoint: map-get($grid-breakpoints, 'md');
 $lg-breakpoint: map-get($grid-breakpoints, 'lg');
 $xl-breakpoint: map-get($grid-breakpoints, 'xl');
-
-$purple: #5d58ee;
-$almond: #FFEAD0;
-$black: #1F1F1F;
-$silverpink: #D0B8AC;
-$ecru: #B4A16A;
 
 .main {
   position: relative;
