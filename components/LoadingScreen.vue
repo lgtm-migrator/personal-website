@@ -48,5 +48,6 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #1F1F1F;
 }
 </style>

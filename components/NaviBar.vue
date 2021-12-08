@@ -14,7 +14,7 @@
             <nuxt-link to="/about" class="link-item">About</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link to="/contact" class="link-item">Contact</nuxt-link>
+            <nuxt-link to="/contact" class="link-item link-item-border">Contact</nuxt-link>
           </li>
         </ul>
       </div>
@@ -126,7 +126,7 @@ export default {
           linkitem[0].addEventListener('mouseout', function (e) {
             gsap.to('.nav', {
               duration: 0.3,
-              backgroundColor: '#fff',
+              backgroundColor: '#1F1F1Fff',
               ease: 'ease.in'
             })
           })
@@ -142,23 +142,25 @@ export default {
           linkitem[1].addEventListener('mouseout', function (e) {
             gsap.to('.nav', {
               duration: 0.3,
-              backgroundColor: '#fff',
+              backgroundColor: '#1F1F1F',
               ease: 'ease.in'
             })
           })
         }
         if (linkitem[i] === linkitem[2]) {
           linkitem[2].addEventListener('mouseover', function (e) {
-            gsap.to('.nav', {
+            gsap.to('.link-item-border', {
               duration: 0.3,
+              borderColor: '#98B9F2',
               backgroundColor: '#98B9F2',
               ease: 'ease.in'
             })
           })
           linkitem[2].addEventListener('mouseout', function (e) {
-            gsap.to('.nav', {
+            gsap.to('.link-item-border', {
               duration: 0.3,
-              backgroundColor: '#fff',
+              backgroundColor: '#1F1F1F',
+              borderColor: '#1F1F1F',
               ease: 'ease.in'
             })
           })
@@ -253,7 +255,7 @@ $xl-breakpoint: map-get($grid-breakpoints, 'xl');
   margin-left: 100%;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: #1F1F1F;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -270,7 +272,7 @@ $xl-breakpoint: map-get($grid-breakpoints, 'xl');
   font-size: 4.5rem;
   text-decoration: none;
   text-align: center;
-  color: #000;
+  color: #fff;
   transition: 0.2s linear;
 }
 
@@ -285,5 +287,10 @@ li {
 .menu .nav ul li a:hover,
 .menu .nav ul li.active a {
   color: #fff;
+}
+
+.link-item-border {
+  border: solid 10px #1F1F1F;
+  border-radius: 50px;
 }
 </style>
