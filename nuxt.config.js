@@ -110,17 +110,17 @@ export default {
 
   firebase: {
     config: {
-      apiKey: "AIzaSyBfXFhcczwqyZk327U4Bx8-radg7i8N-Gg",
-      authDomain: "personalwebsite-7bf11.firebaseapp.com",
-      projectId: "personalwebsite-7bf11",
-      storageBucket: "personalwebsite-7bf11.appspot.com",
-      messagingSenderId: "54308610383",
+      apiKey: 'AIzaSyBfXFhcczwqyZk327U4Bx8-radg7i8N-Gg',
+      authDomain: 'personalwebsite-7bf11.firebaseapp.com',
+      projectId: 'personalwebsite-7bf11',
+      storageBucket: 'personalwebsite-7bf11.appspot.com',
+      messagingSenderId: '54308610383',
       appId: "1:54308610383:web:61388bf01d41eebe7be53a"
     },
     services: {
       auth: true,
       firestore: true,
       storage: true
-    },
+    }
   }
 }
