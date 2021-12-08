@@ -119,14 +119,14 @@ export default {
           linkitem[0].addEventListener('mouseover', function (e) {
             gsap.to('.nav', {
               duration: 0.3,
-              backgroundColor: '#9E8CCF',
+              backgroundColor: '#B4A16A',
               ease: 'ease.in'
             })
           })
           linkitem[0].addEventListener('mouseout', function (e) {
             gsap.to('.nav', {
               duration: 0.3,
-              backgroundColor: '#1F1F1Fff',
+              backgroundColor: '#D0B8AC',
               ease: 'ease.in'
             })
           })
@@ -135,14 +135,14 @@ export default {
           linkitem[1].addEventListener('mouseover', function (e) {
             gsap.to('.nav', {
               duration: 0.3,
-              backgroundColor: '#D4C1EC',
+              backgroundColor: '#C6AD94',
               ease: 'ease.in'
             })
           })
           linkitem[1].addEventListener('mouseout', function (e) {
             gsap.to('.nav', {
               duration: 0.3,
-              backgroundColor: '#1F1F1F',
+              backgroundColor: '#D0B8AC',
               ease: 'ease.in'
             })
           })
@@ -154,16 +154,11 @@ export default {
               backgroundColor: '#FFEAD0',
               ease: 'ease.in'
             })
-            gsap.to('.link-item', {
-              duration: 0.3,
-              color: '#FFEAD0',
-              ease: 'ease.in'
-            })
           })
           linkitem[2].addEventListener('mouseout', function (e) {
             gsap.to('.nav', {
               duration: 0.3,
-              backgroundColor: '#1F1F1F',
+              backgroundColor: '#D0B8AC',
               ease: 'ease.in'
             })
           })
@@ -186,9 +181,10 @@ $lg-breakpoint: map-get($grid-breakpoints, 'lg');
 $xl-breakpoint: map-get($grid-breakpoints, 'xl');
 
 $purple: #5d58ee;
-$gray: #E0E2DB;
 $almond: #FFEAD0;
 $black: #1F1F1F;
+$silverpink: #D0B8AC;
+$ecru: #B4A16A;
 
 .main {
   position: relative;
@@ -263,7 +259,7 @@ $black: #1F1F1F;
   margin-left: 100%;
   width: 100%;
   height: 100%;
-  background: $black;
+  background: $silverpink;
   z-index: 1;
   display: flex;
   align-items: center;
@@ -296,7 +292,7 @@ li {
 
 .menu .nav ul li a:hover,
 .menu .nav ul li.active a {
-  color: #fff;
+  color: $black;
 }
 
 .link-item-border {

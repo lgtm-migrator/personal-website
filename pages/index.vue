@@ -2,7 +2,7 @@
   <v-container class="d-flex align-center">
     <v-row justify="center">
       <v-col cols="12" sm="8" md="6">
-        <h1 class="text-center">
+        <h1 class="app-text text-center">
           Lukas Stauersbøl
         </h1>
         <text-scramble />
@@ -26,6 +26,8 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+@import '/assets/main.scss';
+
 .container {
   width: 100%;
   height: 100%;
