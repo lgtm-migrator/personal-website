@@ -50,7 +50,9 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://sitemap.nuxtjs.org/guide/setup
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    // https://firebase.nuxtjs.org/guide/getting-started
+    '@nuxtjs/firebase'
   ],
 
   sitemap: {
@@ -104,5 +106,21 @@ export default {
   build: {
   },
 
-  loading: '~/components/LoadingScreen.vue'
+  loading: '~/components/LoadingScreen.vue',
+
+  firebase: {
+    config: {
+      apiKey: "AIzaSyBfXFhcczwqyZk327U4Bx8-radg7i8N-Gg",
+      authDomain: "personalwebsite-7bf11.firebaseapp.com",
+      projectId: "personalwebsite-7bf11",
+      storageBucket: "personalwebsite-7bf11.appspot.com",
+      messagingSenderId: "54308610383",
+      appId: "1:54308610383:web:61388bf01d41eebe7be53a"
+    },
+    services: {
+      auth: true,
+      firestore: true,
+      storage: true
+    },
+  }
 }
