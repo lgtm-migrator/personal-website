@@ -104,5 +104,5 @@ export default {
   build: {
   },
 
-  loading: '~/components/LoadingScreen.vue',
+  loading: '~/components/LoadingScreen.vue'
 }
