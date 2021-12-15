@@ -1,6 +1,7 @@
 <template>
-  <div>
+  <div class="d-flex align-center justify-center">
     <p class="text-center text" />
+    <p>&nbsp;based in Denmark</p>
   </div>
 </template>
 
@@ -12,7 +13,7 @@ export default {
       el: null,
       interval: null,
       text: '',
-      phrases: ['Web Developer', 'Frontend Developer', 'UI/UX Designer']
+      phrases: ['Web Developer ', 'Frontend Developer ', 'UI/UX Designer ']
     }
   },
 

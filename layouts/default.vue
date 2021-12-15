@@ -33,7 +33,7 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-  height: 100%;
+  height: 50%;
 }
 
 .v-footer {
@@ -42,5 +42,6 @@ export default {
 
 .v-main {
   background-color: #1F1F1F;
+    overflow-y: hidden;
 }
 </style>

@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="main">
-      <div class="bars" />
-    </div>
+      <div class="main">
+        <div class="bars" />
+      </div>
     <div class="menu">
       <div class="navBefore" />
       <div class="nav">
