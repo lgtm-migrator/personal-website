@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class='text-center text'></p>
+    <p class="text-center text" />
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-      chars: '!<>-_\\/[]{}—=+*^?#________ÆØÅ',
+      chars: '!<>-_\\/[]{}—=+*^?#________',
       el: null,
       interval: null,
       text: '',
