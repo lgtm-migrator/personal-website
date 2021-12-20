@@ -4,7 +4,7 @@
       <v-row justify="center">
         <v-col cols="12" sm="8" md="6">
           <h1 class="app-text text-center">
-            Lukas Stauersbøl
+            Lukas Stauersbøls
           </h1>
           <text-scramble />
         </v-col>
