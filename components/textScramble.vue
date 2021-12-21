@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex align-center justify-center">
+  <div class="d-flex align-center justify-center based-text">
     <p class="text-center text" />
     <p>&nbsp;based in Denmark</p>
   </div>
@@ -98,4 +98,9 @@ class TextScramble {
 </script>
 
 <style lang='scss' scoped>
+.based-text {
+  font-family: 'Neue Montreal', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
 </style>

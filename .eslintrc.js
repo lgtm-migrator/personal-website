@@ -16,18 +16,7 @@ module.exports = {
   ],
   // add your custom rules here
   rules: {
-    'vue/multi-word-component-names': ['error', {
-      ignores: [
-        'experience',
-        'about',
-        'index',
-        'error',
-        'default',
-        'nav',
-        'navbar',
-        'Particles'
-      ]
-    }],
+    'vue/multi-word-component-names': 0,
     'prefer-const': 1,
     'no-unused-vars': 1
   }

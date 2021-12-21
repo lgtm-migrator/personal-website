@@ -11,7 +11,7 @@
       app
       class="align-center justify-center"
     >
-      <span class="">&copy; {{ new Date().getFullYear() }} - Lukas Stauersbøl</span>
+      <span class="footer-text">&copy; {{ new Date().getFullYear() }} - Lukas Stauersbøl</span>
     </v-footer>
   </v-app>
 </template>
@@ -33,7 +33,7 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-  height: 50%;
+  height: 100%;
 }
 
 .v-footer {
@@ -43,5 +43,13 @@ export default {
 .v-main {
   background-color: #1F1F1F;
     overflow-y: hidden;
+}
+
+.footer-text {
+  font-family: 'Neue Montreal', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #FFF;
+  letter-spacing: 2px;
 }
 </style>

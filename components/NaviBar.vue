@@ -14,6 +14,9 @@
             <nuxt-link to="/about" class="link-item">About</nuxt-link>
           </li>
           <li class="nav-item">
+            <nuxt-link to="/projects" class="link-item">Projects</nuxt-link>
+          </li>
+          <li class="nav-item">
             <nuxt-link to="/contact" class="link-item">Contact</nuxt-link>
           </li>
         </ul>
@@ -156,6 +159,22 @@ export default {
             })
           })
           linkitem[2].addEventListener('mouseout', function (e) {
+            gsap.to('.nav', {
+              duration: 0.3,
+              backgroundColor: '#D0B8AC',
+              ease: 'ease.in'
+            })
+          })
+        }
+        if (linkitem[i] === linkitem[3]) {
+          linkitem[3].addEventListener('mouseover', function (e) {
+            gsap.to('.nav', {
+              duration: 0.3,
+              backgroundColor: '#F9C784',
+              ease: 'ease.in'
+            })
+          })
+          linkitem[3].addEventListener('mouseout', function (e) {
             gsap.to('.nav', {
               duration: 0.3,
               backgroundColor: '#D0B8AC',
