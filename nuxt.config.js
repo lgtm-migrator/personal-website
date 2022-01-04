@@ -42,7 +42,7 @@ export default {
     // https://github.com/ivodolenc/nuxt-gsap-module
     'nuxt-gsap-module'
     // https://github.com/harlan-zw/nuxt-webpack-optimisations
-    //'nuxt-webpack-optimisations'
+    // 'nuxt-webpack-optimisations'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
