@@ -20,7 +20,7 @@
     "core-js": "^3.20.0",
     "firebase": "^9.6.1",
     "lottie-web": "^5.8.1",
-    "nuxt": "^2.13.3",
+    "nuxt": "2.15.8",
     "nuxt-storage": "^1.2.2",
     "nuxt-webpack-optimisations": "^2.1.2",
     "particles.vue": "^2.20.5",
