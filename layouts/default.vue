@@ -1,11 +1,13 @@
 <template>
   <v-app dark>
     <navi-bar />
-    <v-main>
-      <v-container>
-        <Nuxt />
-      </v-container>
+    <v-main style="padding: 0;">
+      <Nuxt />
     </v-main>
+    <cursor-fx
+      color="#FFF"
+      color-hover="#FFDAAD"
+    ></cursor-fx>
     <v-footer
       :absolute="!fixed"
       app
@@ -17,10 +19,12 @@
 </template>
 
 <script>
+import { CursorFx } from '@luxdamore/vue-cursor-fx'
 import NaviBar from '~/components/NaviBar.vue'
 export default {
   components: {
-    NaviBar
+    NaviBar,
+    'cursor-fx': CursorFx
   },
   data () {
     return {
@@ -32,17 +36,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container {
-  height: 100%;
-}
-
 .v-footer {
   background-color: transparent;
 }
 
 .v-main {
   background-color: #1F1F1F;
-    overflow-y: hidden;
 }
 
 .footer-text {

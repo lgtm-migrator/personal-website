@@ -1,7 +1,7 @@
 <template>
   <div>
       <div class="main">
-        <div class="bars" />
+        <div class="bars" data-cursor-hover />
       </div>
     <div class="menu">
       <div class="navBefore" />
@@ -219,7 +219,6 @@ $xl-breakpoint: map-get($grid-breakpoints, 'xl');
   flex-direction: column;
   align-items: center;
   z-index: 9999999999;
-  cursor: pointer;
 }
 
 .main .bars::before {
