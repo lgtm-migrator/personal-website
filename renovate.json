@@ -1,6 +1,5 @@
 {
   "extends": [
-    "config:base",
-    "rebaseWhen": "behind-base-branch"
+    "config:base"
   ]
 }
