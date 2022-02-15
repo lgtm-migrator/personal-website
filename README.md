@@ -1,4 +1,8 @@
-# hjemmeside
+# personal-website
+
+## Stats
+
+![Alt](https://repobeats.axiom.co/api/embed/d0e608bdb122b9c7dcc40a78bfde7e7bfdb37792.svg "Repobeats analytics image")
 
 ## Build Setup
 
