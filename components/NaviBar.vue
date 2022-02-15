@@ -295,9 +295,9 @@ $xl-breakpoint: map-get($grid-breakpoints, 'xl');
   transition: 0.2s linear;
 }
 
-ul {
-  padding-left: 0;
-}
+// ul {
+//   padding-left: 0;
+// }
 
 li {
   text-align: center;
