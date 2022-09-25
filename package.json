@@ -25,7 +25,7 @@
     "nuxt-storage": "^1.2.2",
     "nuxt-webpack-optimisations": "^2.1.2",
     "particles.vue": "^2.20.5",
-    "vuetify": "2.6.3"
+    "vuetify": "2.6.10"
   },
   "devDependencies": {
     "@babel/eslint-parser": "7.17.0",
