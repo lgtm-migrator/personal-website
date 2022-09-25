@@ -39,7 +39,7 @@
     "eslint-plugin-nuxt": "^3.1.0",
     "eslint-plugin-vue": "^8.2.0",
     "jest": "27.4.7",
-    "nuxt-gsap-module": "1.6.0",
+    "nuxt-gsap-module": "1.7.2",
     "sass-loader": "^10.1.1",
     "vue-jest": "^3.0.4",
     "webpack": "^4.46.0"
